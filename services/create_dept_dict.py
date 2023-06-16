@@ -17,19 +17,3 @@ def create_dict(browser):
     return d
 
 
-
-
-
-#count = 1
-#for c in casa:
-#    flat = c.text.split('\n')
-#    link = c.get_attribute('href')
-#    casa_dict[count] = {}
-#    casa_dict[count]['link'] = link
-#    if len(flat) == 3:
-#        if 'Trujillo' in flat[2]:
-#            for element in flat:
-#                casa_dict[count]['price'] = flat[0]
-#                casa_dict[count]['comment'] = flat[1]
-#                casa_dict[count]['place'] = flat[2]
-#            count += 1
